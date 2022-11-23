@@ -1,0 +1,25 @@
+/*Hem cambiat el color, font i hem alineat el h1*/
+h1 {
+    color:blueviolet;   
+    font-weight: bold;
+    text-align: center;
+}
+/*Hem dibuixat la taula, juntat les celes i hem posat un marge a l'esquerra*/
+.tabla, tr, .th1 , .td1 {
+    border:1px solid black;
+    border-collapse: collapse;
+    margin-left: 450px;
+}
+/*He cambiat el color de fons, alineat el text al centre i cambiat la font al th*/
+.th1{
+    background-color:lightgray;
+    text-align: center;
+    font-weight: bold;
+}
+/*En el caption li he posat un marge abaix, color del text i la font*/
+.caption{
+    margin-bottom: 10px;
+    color: blue;
+    font-weight: bold;
+}
+
